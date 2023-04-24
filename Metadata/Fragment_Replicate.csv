@@ -1,0 +1,459 @@
+Colony,Fragment,Experiment
+78,1-B,Bleaching2
+78,2-B,Bleaching2
+78,3-B,Control-BuoyantWeight
+78,4-B,Bleaching2
+78,9-B,Control-BuoyantWeight
+78,10-B,Bleaching2
+78,12-B,Control-BuoyantWeight
+78,13-B,Bleaching2
+78,15-B,Not used
+93,19-B,Control-BuoyantWeight
+93,21-B,Bleaching2
+93,22-B,Control-BuoyantWeight
+93,23-B,Bleaching2
+93,24-B,Bleaching2
+93,26-B,Bleaching2
+93,28-B,Bleaching2
+93,29-B,Bleaching2
+43,31-B,Not used
+43,32-B,Bleaching2
+43,33-B,Control-BuoyantWeight
+43,34-B,Bleaching2
+43,35-B,Not used
+43,37-B,Bleaching2
+43,38-B,Bleaching2
+43,39-B,Not used
+43,40-B,Not used
+43,41-B,Bleaching2
+43,42-B,Not used
+44,44-B,Bleaching2
+44,46-B,Bleaching2
+44,47-B,Bleaching2
+44,48-B,Bleaching2
+44,52-B,Bleaching2
+44,56-B,Bleaching2
+44,57-B,Bleaching2
+86,58-B,Not used
+86,59-B,Bleaching2
+86,63-B,Not used
+86,64-B,Control-BuoyantWeight
+86,066-B,Not used
+86,68-B,Bleaching2
+86,69-B,Not used
+86,70-B,Bleaching2
+86,71-B,Bleaching2
+86,72-B,Control-BuoyantWeight
+86,73-B,Bleaching2
+86,74-B,Not used
+86,75-B,Not used
+86,76-B,Not used
+86,77-B,Bleaching2
+99,78-B,Bleaching2
+99,79-B,Bleaching2
+99,82-B,Control-BuoyantWeight
+99,83-B,Bleaching2
+99,84-B,Not used
+79,85-B,Bleaching2
+99,86-B,Bleaching2
+99,87-B,Not used
+99,88-B,Bleaching2
+99,89-B,Control-BuoyantWeight
+99,90-B,Not used
+99,92-B,Not used
+99,94-B,Bleaching2
+99,96-B,Control-BuoyantWeight
+99,97-B,Bleaching2
+39,98-B,Bleaching2
+39,99-B,Bleaching2
+39,302-B,Control-BuoyantWeight
+39,303-B,Bleaching2
+39,304-B,Bleaching2
+39,310-B,Bleaching2
+39,312-B,Bleaching2
+83,313-B,Control-BuoyantWeight
+83,316-B,Bleaching2
+83,317-B,Control-BuoyantWeight
+83,320-B,Bleaching2
+83,321-B,Not used
+83,322-B,Not used
+83,323-B,Bleaching2
+83,324-B,Bleaching2
+83,325-B,Control-BuoyantWeight
+83,326-B,Bleaching2
+83,327-B,Not used
+83,330-B,Bleaching2
+83,331-B,Bleaching2
+83,332-B,Bleaching2
+91,338-B,Bleaching2
+88,342-B,Not used
+88,343-B,Bleaching2
+88,344-B,Not used
+88,345-B,Not used
+88,346-B,Bleaching2
+88,347-B,Control-BuoyantWeight
+88,348-B,Not used
+88,350-B,Bleaching2
+88,352-B,Not used
+88,353-B,Not used
+88,357-B,Bleaching2
+88,358-B,Not used
+88,360-B,Not used
+88,361-B,Bleaching2
+43,362-B,Bleaching2
+43,365-B,Not used
+43,366-B,Bleaching2
+43,367-B,Control-BuoyantWeight
+43,369-B,Not used
+43,370-B,Not used
+43,372-B,Control-BuoyantWeight
+43,373-B,Not used
+43,374-B,Bleaching2
+43,376-B,Not used
+43,377-B,Bleaching2
+37,379-B,Control-BuoyantWeight
+37,380-B,Bleaching2
+37,381-B,Control-BuoyantWeight
+37,382-B,Bleaching2
+37,386-B,Bleaching2
+37,388-B,Bleaching2
+37,389-B,Bleaching2
+37,392-B,Not used
+37,393-B,Not used
+37,395-B,Control-BuoyantWeight
+41,400-B,Not used
+41,401-B,Bleaching2
+41,402-B,Control-BuoyantWeight
+41,405-B,Bleaching2
+41,406-B,Control-BuoyantWeight
+41,407-B,Bleaching2
+41,408-B,Not used
+41,409-B,Bleaching2
+41,410-B,Not used
+41,413-B,Not used
+41,416-B,Not used
+82,421-B,Bleaching2
+82,422-B,Not used
+82,424-B,Bleaching2
+82,425-B,Control-BuoyantWeight
+82,427-B,Bleaching2
+82,429-B,Control-BuoyantWeight
+82,430-B,Bleaching2
+82,432-B,Control-BuoyantWeight
+82,434-B,Bleaching2
+82,435-B,Bleaching2
+82,436-B,Control-BuoyantWeight
+82,437-B,Not used
+31,438-B,Bleaching2
+31,440-B,Bleaching2
+31,442-B,Bleaching2
+31,443-B,Not used
+31,444-B,Control-BuoyantWeight
+31,445-B,Bleaching2
+31,446-B,Control-BuoyantWeight
+31,447-B,Bleaching2
+31,448-B,Bleaching2
+31,449-B,Bleaching2
+31,450-B,Bleaching2
+31,452-B,Control-BuoyantWeight
+31,454-B,Bleaching2
+31,456-B,Control-BuoyantWeight
+31,457-B,Bleaching2
+34,458-B,Bleaching2
+34,459-B,Control-BuoyantWeight
+34,461-B,Bleaching2
+34,462-B,Bleaching2
+34,463-B,Control-BuoyantWeight
+34,466-B,Bleaching2
+34,467-B,Bleaching2
+34,471-B,Control-BuoyantWeight
+34,472-B,Control-BuoyantWeight
+34,474-B,Bleaching2
+34,476-B,Bleaching2
+34,477-B,Bleaching2
+97,493-B,Control-BuoyantWeight
+79,230-G,Control-BuoyantWeight
+86,239-G,Not used
+43,240-G,Not used
+86,241-G,Not used
+86,250-G,Not used
+30,258-G,Not used
+83,259-G,Bleaching2
+40,301-G,Not used
+40,302-G,Not used
+40,303-G,Not used
+40,305-G,Bleaching2
+40,306-G,Control-BuoyantWeight
+40,311-G,Bleaching2
+40,312-G,Bleaching2
+40,313-G,Bleaching2
+40,314-G,Bleaching2
+40,316-G,Control-BuoyantWeight
+40,317-G,Bleaching2
+40,318-G,Control-BuoyantWeight
+40,319-G,Bleaching2
+40,320-G,Control-BuoyantWeight
+40,322-G,Bleaching2
+88,323-G,Not used
+88,324-G,Not used
+88,325-G,Bleaching2
+88,326-G,Control-BuoyantWeight
+88,327-G,Not used
+88,328-G,Bleaching2
+88,329-G,Not used
+88,330-G,Not used
+88,331-G,Bleaching2
+88,332-G,Control-BuoyantWeight
+88,333-G,Not used
+88,334-G,Bleaching2
+88,335-G,Not used
+88,336-G,Bleaching2
+88,337-G,Control-BuoyantWeight
+32,338-G,Not used
+32,340-G,Bleaching2
+32,342-G,Bleaching2
+32,343-G,Bleaching2
+32,345-G,Bleaching2
+32,347-G,Not used
+32,349-G,Control-BuoyantWeight
+32,350-G,Control-BuoyantWeight
+32,352-G,Bleaching2
+32,353-G,Control-BuoyantWeight
+32,354-G,Bleaching2
+32,355-G,Control-BuoyantWeight
+32,356-G,Bleaching2
+32,357-G,Bleaching2
+29,360-G,Control-BuoyantWeight
+29,361-G,Bleaching2
+29,366-G,Bleaching2
+29,367-G,Control-BuoyantWeight
+79,368-G,Bleaching2
+79,369-G,Control-BuoyantWeight
+79,370-G,Bleaching2
+79,371-G,Bleaching2
+79,373-G,Not used
+79,374-G,Bleaching2
+79,375-G,Control-BuoyantWeight
+79,377-G,Bleaching2
+79,379-G,Not used
+79,380-G,Not used
+79,382-G,Bleaching2
+79,383-G,Control-BuoyantWeight
+79,386-G,Not used
+79,387-G,Bleaching2
+79,388-G,Not used
+79,389-G,Bleaching2
+79,390-G,Not used
+90,392-G,Bleaching2
+90,394-G,Not used
+90,397-G,Not used
+90,399-G,Bleaching2
+90,401-G,Not used
+90,402-G,Not used
+90,403-G,Bleaching2
+90,404-G,Not used
+90,405-G,Not used
+90,406-G,Not used
+90,407-G,Not used
+90,408-G,Not used
+90,409-G,Not used
+96,412-G,Not used
+96,414-G,Not used
+96,415-G,Not used
+96,416-G,Not used
+96,417-G,Bleaching2
+96,418-G,Control-BuoyantWeight
+96,420-G,Bleaching2
+96,421-G,Control-BuoyantWeight
+96,422-G,Bleaching2
+96,424-G,Bleaching2
+96,425-G,Bleaching2
+96,427-G,Control-BuoyantWeight
+96,428-G,Bleaching2
+96,430-G,Not used
+96,432-G,Bleaching2
+96,434-G,Bleaching2
+96,435-G,Not used
+96,436-G,Not used
+96,437-G,Bleaching2
+96,438-G,Bleaching2
+96,439-G,Not used
+96,440-G,Not used
+96,441-G,Control-BuoyantWeight
+35,443-G,Bleaching2
+35,444-G,Bleaching2
+35,448-G,Bleaching2
+35,449-G,Control-BuoyantWeight
+35,450-G,Control-BuoyantWeight
+35,451-G,Control-BuoyantWeight
+35,452-G,Bleaching2
+35,453-G,Bleaching2
+31,454-G,Control-BuoyantWeight
+35,456-G,Bleaching2
+35,457-G,Bleaching2
+37,458-G,Not used
+35,459-G,Bleaching2
+44,461-G,Control-BuoyantWeight
+44,463-G,Bleaching2
+44,464-G,Control-BuoyantWeight
+44,465-G,Control-BuoyantWeight
+44,466-G,Not used
+44,467-G,Not used
+44,469-G,Not used
+44,470-G,Not used
+44,472-G,Not used
+44,475-G,Control-BuoyantWeight
+44,476-G,Not used
+44,477-G,Not used
+44,478-G,Not used
+30,482-G,Bleaching2
+30,483-G,Not used
+30,484-G,Control-BuoyantWeight
+30,485-G,Control-BuoyantWeight
+30,486-G,Not used
+30,487-G,Not used
+30,488-G,Bleaching2
+30,489-G,Bleaching2
+30,493-G,Bleaching2
+30,494-G,Control-BuoyantWeight
+30,496-G,Control-BuoyantWeight
+30,497-G,Not used
+90,1-Oc,Not used
+90,2-Oc,Not used
+90,3-Oc,Bleaching2
+90,4-Oc,Control-BuoyantWeight
+90,5-Oc,Not used
+90,6-Oc,Bleaching2
+90,7-Oc,Control-BuoyantWeight
+90,8-Oc,Not used
+90,9-Oc,Not used
+90,10-Oc,Bleaching2
+90,11-Oc,Control-BuoyantWeight
+90,12-Oc,Not used
+90,13-Oc,Not used
+90,14-Oc,Not used
+90,15-Oc,Bleaching2
+90,16-Oc,Not used
+90,17-Oc,Not used
+90,18-Oc,Bleaching2
+90,19-Oc,Not used
+90,20-Oc,Not used
+90,21-Oc,Control-BuoyantWeight
+90,22-Oc,Not used
+90,23-Oc,Not used
+90,24-Oc,Not used
+90,25-Oc,Bleaching2
+99,26-Oc,Not used
+99,27-Oc,Not used
+99,28-Oc,Not used
+99,29-Oc,Not used
+99,30-Oc,Not used
+99,31-Oc,Not used
+99,32-Oc,Bleaching2
+99,33-Oc,Control-BuoyantWeight
+99,34-Oc,Not used
+99,35-Oc,Not used
+99,36-Oc,Not used
+99,37-Oc,Bleaching2
+99,38-Oc,Not used
+99,39-Oc,Not used
+99,40-Oc,Bleaching2
+99,41-Oc,Not used
+99,42-Oc,Not used
+86,43-Oc,Not used
+86,44-Oc,Not used
+86,45-Oc,Not used
+86,46-Oc,Control-BuoyantWeight
+86,47-Oc,Bleaching2
+86,48-Oc,Bleaching2
+86,49-Oc,Not used
+86,50-Oc,Bleaching2
+86,51-Oc,Bleaching2
+86,52-Oc,Control-BuoyantWeight
+82,53-Oc,Not used
+82,54-Oc,Bleaching2
+82,55-Oc,Not used
+82,56-Oc,Bleaching2
+82,57-Oc,Not used
+78,58-Oc,Bleaching2
+78,59-Oc,Control-BuoyantWeight
+78,60-Oc,Not used
+78,61-Oc,Bleaching2
+78,62-Oc,Bleaching2
+78,63-Oc,Not used
+78,64-Oc,Bleaching2
+78,65-Oc,Bleaching2
+78,66-Oc,Not used
+78,67-Oc,Not used
+37,68-Oc,Bleaching2
+37,69-Oc,Control-BuoyantWeight
+37,70-Oc,Bleaching2
+37,71-Oc,Not used
+37,72-Oc,Bleaching2
+41,73-Oc,Bleaching2
+41,307-G,Bleaching2
+41,74-Oc,Bleaching2
+41,75-Oc,Not used
+41,76-Oc,Not used
+41,77-Oc,Not used
+41,78-Oc,Bleaching2
+41,79-Oc,Control-BuoyantWeight
+41,80-Oc,Bleaching2
+41,81-Oc,Control-BuoyantWeight
+41,82-Oc,Not used
+93,83-Oc,Not used
+93,84-Oc,Not used
+93,85-Oc,Not used
+93,86-Oc,Control-BuoyantWeight
+93,87-Oc,Bleaching2
+91,88-Oc,Bleaching2
+91,89-Oc,Control-BuoyantWeight
+91,90-Oc,Control-BuoyantWeight
+91,91-Oc,Bleaching2
+91,92-Oc,Control-BuoyantWeight
+91,93-Oc,Control-BuoyantWeight
+91,94-Oc,Not used
+91,95-Oc,Bleaching2
+91,96-Oc,Bleaching2
+83,97-Oc,Control-BuoyantWeight
+83,98-Oc,Bleaching2
+35,99-Oc,Bleaching2
+35,100-Oc,Bleaching2
+35,101-Oc,Not used
+43,102-Oc,Not used
+43,103-Oc,Bleaching2
+43,104-Oc,Control-BuoyantWeight
+43,105-Oc,Bleaching2
+91,106-Oc,Bleaching2
+91,107-Oc,Bleaching2
+91,108-Oc,Bleaching2
+79,109-Oc,Not used
+79,110-Oc,Not used
+79,111-Oc,Bleaching2
+93,112-Oc,Control-BuoyantWeight
+93,113-Oc,Bleaching2
+32,184-Oc,Bleaching2
+32,185-Oc,Bleaching2
+32,186-Oc,Not used
+88,187-Oc,Not used
+88,188-Oc,Not used
+88,189-Oc,Not used
+30,191-Oc,Bleaching2
+30,192-Oc,Bleaching2
+30,193-Oc,Not used
+30,194-Oc,Bleaching2
+79,195-Oc,Not used
+79,196-Oc,Not used
+79,197-Oc,Not used
+79,198-Oc,Not used
+79,199-Oc,Not used
+79,200-Oc,Not used
+99,349-oc,Not used
+86,383-oc,Not used
+30,436-Oc,Bleaching2
+86,438-oc,Not used
+86,440-oc,Not used
+93,109-R,Bleaching2
+35,150-R,Not used
+35,151-R,Not used
+35,168-R,Not used
