@@ -18,10 +18,10 @@
 
 # 8. Get rid of file info and rename columns  
   head(YII.data)
-  YII.Tall<-dplyr::select(YII.data,  Date, TimePoint, Genotype, Fragment, value)
-  colnames(YII.Tall) <- c("Date","TimePoint","Genotype", "Fragment", "YII")
+  YII.Tall<-dplyr::select(YII.data,  Date, TimePoint, Genotype, Colony, Fragment, value)
+  colnames(YII.Tall) <- c("Date","TimePoint","Genotype", "Colony", "Fragment", "YII")
 
-# 9. Wide formating 
+# 9. Wide formatting 
   # Check duplicated data
   YII.Tall$Sample<-paste(YII.Tall$TimePoint, YII.Tall$Fragment, sep='_') 
   Duplicated <- YII.Tall[duplicated(YII.Tall$Sample),] 

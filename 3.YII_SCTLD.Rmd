@@ -1,10 +1,19 @@
 ---
 title: "Ofav_YII_Co-factors_SCTLD"
-author: "AnaPalacio"
-date: "June 6, 2019"
+author: "Ana Palacio-Castro"
+date: "`r Sys.Date()`"
 output:
-  pdf_document: default
-  html_document: default
+  html_document:
+    code_folding: hide
+    fig_height: 8
+    fig_width: 8
+    df_print: paged
+    toc: yes
+    toc_float: true
+bibliography: packages.bib
+nocite: '@*'
+editor_options:
+  chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
@@ -12,18 +21,73 @@ knitr::opts_chunk$set(echo = TRUE, warning=FALSE, message=FALSE)
                       #fig.width=4, fig.height=3 )
 ```
 
-# General project set-up 
+# Libraries and settings
+
+```{r, include=FALSE}
+# Libraries
+    library(plyr)
+    library(tidyverse)
+    library(reshape2)
+    library(lubridate)
+    library(knitr)
+    library(dplyr)
+    library(broom)
+
+#Plots
+    library(ggpubr)
+    library(ggthemes)
+    library(gridExtra)
+    library(ggExtra)
+    library(colorspace)
+    
+#Models     
+    library(plotrix)
+    library(lmodel2)    
+    library(lmerTest)
+    library(emmeans)
+    library(effects)
+    library(modelsummary) # model results in table
+    # library(lsmeans) #cld functon 
+    #library(jtools) # Plot modesl
+    library(kableExtra) # ANOVA tables
+
+# Plots
+MyTheme<-theme_bw() +  
+theme(legend.position="top",
+          plot.background=element_blank(),
+          #axis.text.x = element_text(angle = 90, vjust = 0.5),
+          panel.grid.major.y = element_blank(),
+          panel.grid.major.x = element_blank(),
+          panel.grid.minor.x = element_blank(),
+          panel.grid.minor.y = element_blank(),
+          legend.box.background = element_rect(),
+          legend.title = element_blank(),
+          panel.background =element_rect(fill = NA, 
+                                         color = "black"))#+
+  #guides(fill=guide_legend(nrow=2,byrow=TRUE), shape=guide_legend(nrow=3,byrow=TRUE))
+
+# Season_fill<-scale_fill_manual(values =
+#                            c("#2b83ba", "#abdda4",
+#                              "#d7191c", "#fdae61"))
+# 
+# Season_colour<-scale_colour_manual(values =
+#                            c("#2b83ba", "#abdda4",
+#                              "#d7191c", "#fdae61"))
+# 
+# Zone_shapes4<- scale_shape_manual(values=c(21,23,24, 25))
+# Zone_shapes3<- scale_shape_manual(values=c(21,23,24))
+
+# Region_fill<-scale_fill_manual(values =
+#                            c("#663043", "#EDAB79", "#306754", "#79BAEC"))
+# 
+# Region_colour<-scale_colour_manual(values =
+#                           c("#663043", "#EDAB79", "#306754", "#79BAEC"))
+
+```
+
+# Data
 
 ```{r libraries, results="hide"}
-
-# Get all libraries and sources required to run the script
-
-#library(plyr)
-library(tidyverse)
-
-#library(reshape2)
-library(ggthemes)
-
 
 # Import YII data: 
       YII.Tall<-read.csv("Outputs/YII_tall.csv")
@@ -45,7 +109,7 @@ library(ggthemes)
 #YII.Tall<-left_join(YII.Tall, Replicate, by=c("Fragment"))
 
 YII.Tall$Genotype<-factor(YII.Tall$Genotype)
-YII.Tall$TimePoint<-as.integer(YII.Tall$TimePoint)
+#YII.Tall$TimePoint<-as.integer(YII.Tall$TimePoint)
 YII.Tall$Date<-as.Date(YII.Tall$Date, "%Y-%m-%d")
 
 # YII.Tall %>%
@@ -64,10 +128,10 @@ YII.Tall$Date<-as.Date(YII.Tall$Date, "%Y-%m-%d")
 # write.csv(Summary_Reef, file = "Summary_Reef.csv")
     
 # Genotype 
-YII_Genotype<- ggplot(YII.Tall, aes (Genotype, YII, colour=Genotype)) +
-  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2 )+
+YII_Genotype<- ggplot(YII.Tall, aes (Colony, YII, colour=Colony)) +
   #stat_summary(fun.y=mean, geom = "line")+ theme_classic() +
-  geom_point()   
+  geom_point(alpha=0.5) + facet_grid(~TimePoint) + MyTheme+
+  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2 )
 YII_Genotype + ylim(0.25, 0.7)
 
 YII_Genotype<- ggplot(YII.Tall, aes (TimePoint, YII, colour=factor(Genotype))) +
