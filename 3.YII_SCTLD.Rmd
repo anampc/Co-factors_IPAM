@@ -95,8 +95,7 @@ theme(legend.position="top",
       #YII.Tall<-YII.Tall[which(YII.Tall$Genotype!=97),]
 
 # Import Location data: 
-    #Location<-read.csv("Metadata/Genotype_Origin.csv", header = T)
-    #Replicate<-read.csv("Metadata/Fragment_Replicate.csv", header = T)
+    Metadata<-read.csv("Metadata/Fragment_Replicate.csv", header = T)
 
 ```
 
@@ -105,10 +104,9 @@ theme(legend.position="top",
 
 ```{r Graphs YII, echo =FALSE}
 
-#YII.Tall<-left_join(YII.Tall, Location, by=c("Genotype"))
-#YII.Tall<-left_join(YII.Tall, Replicate, by=c("Fragment"))
+YII.Tall<-left_join(YII.Tall, Metadata, by=c("Fragment"))
 
-YII.Tall$Genotype<-factor(YII.Tall$Genotype)
+YII.Tall$Genotype<-factor(YII.Tall$Genotype.x)
 #YII.Tall$TimePoint<-as.integer(YII.Tall$TimePoint)
 YII.Tall$Date<-as.Date(YII.Tall$Date, "%Y-%m-%d")
 
@@ -128,36 +126,18 @@ YII.Tall$Date<-as.Date(YII.Tall$Date, "%Y-%m-%d")
 # write.csv(Summary_Reef, file = "Summary_Reef.csv")
     
 # Genotype 
-YII_Genotype<- ggplot(YII.Tall, aes (Colony, YII, colour=Colony)) +
+YII_Genotype<- ggplot(YII.Tall, aes (Genotype, YII, colour=Genotype)) +
   #stat_summary(fun.y=mean, geom = "line")+ theme_classic() +
   geom_point(alpha=0.5) + facet_grid(~TimePoint) + MyTheme+
-  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2 )
-YII_Genotype + ylim(0.25, 0.7)
+  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2 ) +
+  ylim(0.25, 0.75)
+YII_Genotype + facet_grid(Disease~Nutrients)
 
-YII_Genotype<- ggplot(YII.Tall, aes (TimePoint, YII, colour=factor(Genotype))) +
+YII_Genotype<- ggplot(YII.Tall, aes (TimePoint, YII, colour=Genotype)) +
   stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2 )+
   stat_summary(fun.y=mean, geom = "line")+ theme_classic() +
   geom_point()   
 YII_Genotype + ylim(0.25, 0.7)
-
-# Replicate
-YII_rep<- ggplot(YII.Tall, aes (Time, YII, colour=Genotype)) +
-  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2)+
-  stat_summary(fun.y=mean, geom="point", size =3, alpha=0.5) +
-  stat_summary(fun.y=mean, geom="line") + theme_gdocs()
-YII_rep  + ylim(0.25, 0.7) +
-   facet_grid (Experiment2~Reef)  #+ geom_jitter() + xlim(as.Date(c("2017-11-01", "2018-01-20"))) +
-YII_rep  + ylim(0.25, 0.7) +
-   facet_grid (Tank~Reef)
-
-# Location
-YII_Reef<- ggplot(YII.Tall, aes (Date, YII, colour=factor(Reef))) +  
-  #geom_jitter(alpha=0.5)+
-  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2)+
-  stat_summary(fun.y=mean, geom="point", size =3, alpha=0.5) +
-  stat_summary(fun.y=mean, geom="line") + theme_gdocs()
-YII_Reef  + ylim(0.3, 0.7) +facet_grid (Experiment2~.)
-YII_Reef  + ylim(0.3, 0.7) +facet_grid (Tank~.)
 
 YII_Genotype<- ggplot(YII.Tall, aes (Genotype, YII, colour=factor(Genotype))) +
   stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2 )+
@@ -166,19 +146,12 @@ YII_Genotype<- ggplot(YII.Tall, aes (Genotype, YII, colour=factor(Genotype))) +
   facet_grid(~Date)
 YII_Genotype
 
-YII_Time<- ggplot(YII.Tall, aes (Time, YII, group_by(Fragment), colour=factor(Genotype))) +
+YII_Time<- ggplot(YII.Tall, aes (TimePoint, YII, group_by(Fragment), colour=factor(Genotype))) +
   stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2 )+
   #stat_summary(fun.y=mean, geom="point", size =3, alpha=0.5) +
   stat_summary(fun.y=mean, geom="line") +  theme_gdocs() + geom_point(alpha=0.3) + 
   facet_wrap(~Genotype)
 YII_Time
-
-YII_rep<- ggplot(YII.Tall, aes (Time, YII, colour=factor(ITS2))) +
-  #stat_summary(fun.data = "mean_cl_boot",geom = "errorbar", width = 0.2 )+
-  #stat_summary(fun.y=mean, geom="point", size =3, alpha=0.5) +
-  stat_summary(fun.y=mean, geom="point") +  theme_gdocs() +
-  theme(legend.position = "none")+ geom_jitter(alpha=0.3)
-YII_rep + ylim(0.3, 0.7) +  facet_grid (ORF~Reef)
 
 ```
 
