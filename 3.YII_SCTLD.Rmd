@@ -156,7 +156,7 @@ YII_T<- ggplot(YII.Tall, aes (TimePoint, YII,
   ylim(0.25, 0.75)
 YII_T + facet_grid(~Genotype)
 
-YII_T<- ggplot(YII.Tall[YII.Tall$TimePoint=="T1", ], aes (Genotype, YII, 
+YII_T1<- ggplot(YII.Tall[YII.Tall$TimePoint=="T1", ], aes (Genotype, YII, 
                               colour=factor(Temp), shape=Nutrients)) +
   #stat_summary(fun.y=mean, geom = "line")+ theme_classic() +
   geom_jitter(aes(shape=Nutrients), alpha=0.4) + MyTheme+
@@ -167,7 +167,20 @@ YII_T<- ggplot(YII.Tall[YII.Tall$TimePoint=="T1", ], aes (Genotype, YII,
                geom = "point",
                position=position_dodge(width=0.2)) +
   ylim(0.5, 0.75)
-YII_T
+YII_T1
+
+YII_T2<- ggplot(YII.Tall[YII.Tall$TimePoint=="T2", ], aes (Genotype, YII, 
+                              colour=factor(Temp), shape=Nutrients)) +
+  #stat_summary(fun.y=mean, geom = "line")+ theme_classic() +
+  geom_jitter(aes(shape=Nutrients), alpha=0.4) + MyTheme+
+  stat_summary(fun.data = "mean_cl_boot",
+               geom = "errorbar", width = 0.2,
+               position=position_dodge(width=0.2)) +
+  stat_summary(fun.data = "mean_cl_boot",
+               geom = "point",
+               position=position_dodge(width=0.2)) +
+  ylim(0.5, 0.75)
+YII_T2
 
 
 YII_Genotype<- ggplot(YII.Tall, aes (Temperature, YII, 
