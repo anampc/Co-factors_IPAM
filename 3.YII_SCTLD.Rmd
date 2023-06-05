@@ -182,6 +182,19 @@ YII_T2<- ggplot(YII.Tall[YII.Tall$TimePoint=="T2", ], aes (Genotype, YII,
   ylim(0.5, 0.75)
 YII_T2
 
+YII_T3<- ggplot(YII.Tall[YII.Tall$TimePoint=="T3", ], aes (Genotype, YII, 
+                              colour=factor(Temp), shape=Nutrients)) +
+  #stat_summary(fun.y=mean, geom = "line")+ theme_classic() +
+  geom_jitter(aes(shape=Nutrients), alpha=0.4) + MyTheme+
+  stat_summary(fun.data = "mean_cl_boot",
+               geom = "errorbar", width = 0.2,
+               position=position_dodge(width=0.2)) +
+  stat_summary(fun.data = "mean_cl_boot",
+               geom = "point",
+               position=position_dodge(width=0.2)) +
+  ylim(0.5, 0.75)
+YII_T3
+
 
 YII_Genotype<- ggplot(YII.Tall, aes (Temperature, YII, 
                                      colour=factor(Genotype))) +
@@ -202,8 +215,31 @@ YII_rep<- ggplot(YII.Tall, aes (Date, YII, colour=factor(Fragment))) +
   theme(legend.position = "none")
 YII_rep + ylim(0.2, 0.7) +  facet_grid (Nutrients~Temp) 
 
+
+```
+
+```{r}
 YII_Trea<- ggplot(YII.Tall[YII.Tall$TimePoint!="T0", ], 
                   aes (Genotype, YII, colour=factor(N_T))) +
+  Treat_fill+
+  Treat_colour+
+  geom_point(aes(fill=N_T), shape=21, alpha=0.1)+
+  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar",
+               width = 0.2, position=position_dodge(width=0.2))+
+  stat_summary(fun.y=mean, geom="point", 
+                position=position_dodge(width=0.2), size =2, alpha=1) +
+  stat_summary(fun.y=mean, geom="line",  position=position_dodge(width=0.2)) + 
+  MyTheme
+  # scale_x_date(date_breaks = "1 week", 
+  #              date_labels = "%b/%d")+
+YII_Trea + ylim(0.55, 0.71)+facet_grid(~TimePoint)
+
+```
+
+
+```{r}
+YII_Trea<- ggplot(YII.Tall[YII.Tall$TimePoint!="T0", ], 
+                  aes (TimePoint, YII, colour=factor(N_T))) +
   Treat_fill+
   Treat_colour+
   #geom_point(aes(fill=N_T), shape=21, alpha=0.1)+
@@ -215,12 +251,11 @@ YII_Trea<- ggplot(YII.Tall[YII.Tall$TimePoint!="T0", ],
   MyTheme
   # scale_x_date(date_breaks = "1 week", 
   #              date_labels = "%b/%d")+
-YII_Trea + ylim(0.55, 0.71)
+YII_Trea + ylim(0.55, 0.71)+facet_grid(~Genotype)
 
 library(lattice)
 xyplot(YII ~ TimePoint | Nutrients, data=YII.Tall, type=c("p", "r"), ylim=c(0.0, 0.7))
 ```
-
 
 <!-- # Model selection  -->
 
