@@ -10,8 +10,8 @@ output:
     df_print: paged
     toc: yes
     toc_float: true
-#bibliography: packages.bib
-#nocite: '@*'
+bibliography: packages.bib
+nocite: '@*'
 editor_options:
   chunk_output_type: console
 ---
@@ -114,6 +114,11 @@ YII.Tall$Day<-as.numeric(difftime(YII.Tall$Date,
 summary(YII.Tall)
 
 #Remove baseline before treatments and disease
+YII.Tall <- subset(YII.Tall, YII.Tall$Sample!='T1_A_303')
+YII.Tall <- subset(YII.Tall, YII.Tall$Sample!='T2_A_205')
+YII.Tall <- subset(YII.Tall, YII.Tall$Sample!='T2_A_740')
+YII.Tall <- subset(YII.Tall, YII.Tall$Sample!='T1_D_873')
+
 YII.Tall<-YII.Tall[which(YII.Tall$TimePoint!="T0"),]
 YII.Tall<-YII.Tall[which(YII.Tall$TimePoint!="T3"),]
 
@@ -281,6 +286,27 @@ YII_Trea<- ggplot(YII.Tall,
   facet_grid(~Genotype)
 YII_Trea
 
+YII_Trea<- ggplot(YII.Tall[(YII.Tall$TimePoint!="T0"|YII.Tall$TimePoint!="T3"), ], 
+                  aes (TimePoint, YII, colour=factor(N_T))) +
+  Treat_fill+
+  Treat_colour+
+  #geom_point(aes(fill=N_T), shape=21, alpha=0.1)+
+  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar",
+               width = 0.2, position=position_dodge(width=0.3))+
+  stat_summary(fun.y=mean, geom="point", 
+                position=position_dodge(width=0.3), size =2, alpha=1) +
+  MyTheme + facet_grid(~Genotype)
+  # scale_x_date(date_breaks = "1 week", 
+  #              date_labels = "%b/%d")+
+YII_Trea 
+
 #ggsave("Outputs/YII_Trea.svg", YII_Trea, width=4, height=3,dpi = 300)
 
+```
+
+# Packages used
+
+```{r}
+# Creates bibliography 
+#knitr::write_bib(c(.packages()), "packages.bib")
 ```
