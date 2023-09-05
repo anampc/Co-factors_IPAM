@@ -249,9 +249,10 @@ LM_1 <- lmer(YII ~ TimePoint * Nutrients * Temperature * Genotype +
                              (1|Genotype/Fragment), REML=TRUE, data=YII.Tall)
 
 step(LM_1)
+anova(LM_1)
 
 # Final model
-LM_1 <- lmer(YII ~ Nutrients + Temperature + (1 | Genotype),  data=YII.Tall)
+LM_1 <- lmer(YII ~ Nutrients + Temperature + TimePoint + (1 | Genotype),  data=YII.Tall)
 summary(LM_1)
 anova(LM_1)
 ranova(LM_1)
@@ -264,7 +265,7 @@ plot(Effect(c("Nutrients","Temperature"), LM_1), x.var="Temperature", multiline=
 #  Pair-wise comparisons
 YIIAcerEmm<-cld(emmeans(LM_1, specs = c("Nutrients", "Temperature")))
 YIIAcerEmm
-write.csv(YIIAcerEmm, "Outputs/YIIAcerEmm.csv")
+write.csv(YIIAcerEmm, "Outputs/YII_Emm.csv")
 
 ```
 
