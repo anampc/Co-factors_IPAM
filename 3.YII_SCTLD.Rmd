@@ -227,8 +227,22 @@ YII_Trea<- ggplot(YII.Tall[(YII.Tall$TimePoint!="T0"|YII.Tall$TimePoint!="T3"), 
   #              date_labels = "%b/%d")+
 YII_Trea + ylim(0.55, 0.71)+facet_grid(~TimePoint)
 
-```
+YII_Trea<- ggplot(YII.Tall, 
+                  aes (TimePoint, YII, colour=factor(N_T))) +
+  Treat_fill+
+  Treat_colour+
+  #geom_point(aes(fill=N_T, shape=Disease), alpha=0.2)+
+  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar",
+               width = 0.2, position=position_dodge(width=0.2))+
+  stat_summary(fun.y=mean, geom="point", 
+                position=position_dodge(width=0.2), size =2, alpha=1) +
+  MyTheme +
+  # scale_x_date(date_breaks = "1 week", 
+  #              date_labels = "%b/%d")+
+  facet_grid(~Genotype)
+YII_Trea
 
+```
 
 
 # Model selection 
@@ -251,41 +265,48 @@ LM_1 <- lmer(YII ~ TimePoint * Nutrients * Temperature * Genotype +
 step(LM_1)
 anova(LM_1)
 
+
+
+```
+
 # Final model
+
+```{r}
+
+# Final model summary
 LM_1 <- lmer(YII ~ Nutrients + Temperature + TimePoint + (1 | Genotype),  data=YII.Tall)
-summary(LM_1)
+
+  summary(LM_1)
+  
+  layout(matrix(1:4,2,2))
+  plot(LM_1)
+  plot(Effect(c("Nutrients","Temperature"), LM_1), 
+       x.var="Temperature", multiline=T, ci.style="bars")
+
+```
+
+**Table S1:** Generalized linear mixed models used to test for differences in the photochemical efficiency (Fv /Fm) of corals exposed to temperature and nutrient treatments. Each model included nutrient and temperature as well as time point as interacting fixed effects, and coral colony as random effects.
+
+```{r}
+#Type 3 aov
 anova(LM_1)
+#Anova-like table for random effects
 ranova(LM_1)
 
-layout(matrix(1:4,2,2))
-plot(LM_1)
+```
 
-plot(Effect(c("Nutrients","Temperature"), LM_1), x.var="Temperature", multiline=T, ci.style="bars")
+**Table S2:** Estimated photochemical efficiency (Fv /Fm) for corals exposed to temperature and nutrient treatments. Pairwise comparisons between groups were obtained using Tukey’s HSD test (α = 0.05). Degrees of freedom are calculated with the Kenward-roger method. Confidence level (CL) used = 0.95. Non-overlapping Tukey groups denote significant differences among two given mean values. Results are averaged over the levels of Time Point. 
 
+```{r}
 #  Pair-wise comparisons
 YIIAcerEmm<-cld(emmeans(LM_1, specs = c("Nutrients", "Temperature")))
 YIIAcerEmm
-write.csv(YIIAcerEmm, "Outputs/YII_Emm.csv")
-
+#write.csv(YIIAcerEmm, "Outputs/YII_Emm.csv")
 ```
 
 # Final plot 
 
 ```{r}
-YII_Trea<- ggplot(YII.Tall, 
-                  aes (as.factor(Temperature), YII, colour=factor(N_T))) +
-  Treat_fill+
-  Treat_colour+
-  #geom_point(aes(fill=N_T, shape=Disease), alpha=0.2)+
-  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar",
-               width = 0.2, position=position_dodge(width=0.2))+
-  stat_summary(fun.y=mean, geom="point", 
-                position=position_dodge(width=0.2), size =2, alpha=1) +
-  MyTheme +
-  # scale_x_date(date_breaks = "1 week", 
-  #              date_labels = "%b/%d")+
-  facet_grid(~Genotype)
-YII_Trea
 
 YII_Trea<- ggplot(YII.Tall[(YII.Tall$TimePoint!="T0"|YII.Tall$TimePoint!="T3"), ], 
                   aes (TimePoint, YII, colour=factor(N_T))) +
@@ -296,14 +317,16 @@ YII_Trea<- ggplot(YII.Tall[(YII.Tall$TimePoint!="T0"|YII.Tall$TimePoint!="T3"), 
                width = 0.2, position=position_dodge(width=0.3))+
   stat_summary(fun.y=mean, geom="point", 
                 position=position_dodge(width=0.3), size =2, alpha=1) +
-  MyTheme + facet_grid(~Genotype)
+  MyTheme #+ facet_grid(~Genotype)
   # scale_x_date(date_breaks = "1 week", 
   #              date_labels = "%b/%d")+
 YII_Trea 
 
-#ggsave("Outputs/YII_Trea.svg", YII_Trea, width=4, height=3,dpi = 300)
+#ggsave("Outputs/YII_Trea.svg", YII_Trea, width=3, height=3,dpi = 300)
 
 ```
+
+**Figure 4a**: Text
 
 # Packages used
 
