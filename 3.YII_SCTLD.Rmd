@@ -313,7 +313,7 @@ YII_Trea<- ggplot(YII.Tall[(YII.Tall$TimePoint!="T0"|YII.Tall$TimePoint!="T3"), 
   Treat_fill+
   Treat_colour+
   #geom_point(aes(fill=N_T), shape=21, alpha=0.1)+
-  stat_summary(fun.data = "mean_cl_boot",geom = "errorbar",
+  stat_summary(fun.data = "mean_cl_boot", geom = "errorbar",
                width = 0.2, position=position_dodge(width=0.3))+
   stat_summary(fun.y=mean, geom="point", 
                 position=position_dodge(width=0.3), size =2, alpha=1) +
