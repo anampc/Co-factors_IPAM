@@ -26,12 +26,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      showgrid="false"
-     inkscape:zoom="1.0729879"
-     inkscape:cx="347.62739"
-     inkscape:cy="154.24218"
+     inkscape:zoom="0.9983453"
+     inkscape:cx="356.59005"
+     inkscape:cy="97.661601"
      inkscape:window-width="1309"
      inkscape:window-height="779"
-     inkscape:window-x="2111"
+     inkscape:window-x="2081"
      inkscape:window-y="89"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg732" />
@@ -1452,295 +1452,207 @@
      style="stroke-width:1.07"
      id="rect592"
      clip-path="url(#clipPath1879)"
-     transform="matrix(1,0,0,1.0824056,0,-15.184878)" />
-  <polyline
-     points="76.33,83.25 80.19,83.25 "
-     style="stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline594"
-     transform="translate(-1.5,3)"
-     clip-path="url(#clipPath1873)" />
+     transform="matrix(1,0,0,1.0824056,0,-10.684878)" />
   <polyline
      points="78.26,83.25 78.26,138.39 "
-     style="stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="polyline596"
-     transform="translate(-1.5,3)"
+     transform="translate(-1.5,7.5)"
      clip-path="url(#clipPath1867)" />
   <polyline
-     points="76.33,138.39 80.19,138.39 "
-     style="stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline598"
-     transform="translate(-1.5,3)"
-     clip-path="url(#clipPath1861)" />
-  <polyline
-     points="82.12,51.02 85.98,51.02 "
-     style="stroke:#003399;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline600"
-     transform="translate(0,3)"
-     clip-path="url(#clipPath1855)" />
-  <polyline
      points="84.05,51.02 84.05,110.08 "
-     style="stroke:#003399;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="polyline602"
-     transform="translate(0,3)"
+     transform="translate(0,7.5)"
      clip-path="url(#clipPath1849)" />
   <polyline
-     points="82.12,110.08 85.98,110.08 "
-     style="stroke:#003399;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline604"
-     transform="translate(0,3)"
-     clip-path="url(#clipPath1843)" />
-  <polyline
-     points="87.91,112.70 91.77,112.70 "
-     style="stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline606"
-     transform="translate(1.5,3)"
-     clip-path="url(#clipPath1837)" />
-  <polyline
      points="89.84,112.70 89.84,177.92 "
-     style="stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="polyline608"
-     transform="translate(1.5,3)"
+     transform="translate(1.5,7.5)"
      clip-path="url(#clipPath1831)" />
   <polyline
-     points="87.91,177.92 91.77,177.92 "
-     style="stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline610"
-     transform="translate(1.5,3)"
-     clip-path="url(#clipPath1825)" />
-  <polyline
-     points="93.70,103.66 97.56,103.66 "
-     style="stroke:#660000;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline612"
-     transform="translate(3,3)"
-     clip-path="url(#clipPath1819)" />
-  <polyline
      points="95.63,103.66 95.63,160.05 "
-     style="stroke:#660000;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="polyline614"
-     transform="translate(3,3)"
+     transform="translate(3,7.5)"
      clip-path="url(#clipPath1813)" />
   <polyline
-     points="93.70,160.05 97.56,160.05 "
-     style="stroke:#660000;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline616"
-     transform="translate(3,3)"
-     clip-path="url(#clipPath1807)" />
-  <polyline
-     points="153.56,83.11 157.42,83.11 "
-     style="stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline618"
-     transform="translate(-3,3)"
-     clip-path="url(#clipPath1801)" />
-  <polyline
      points="155.49,83.11 155.49,132.13 "
-     style="stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="polyline620"
-     transform="translate(-3,3)"
+     transform="translate(-3,7.5)"
      clip-path="url(#clipPath1795)" />
   <polyline
-     points="153.56,132.13 157.42,132.13 "
-     style="stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline622"
-     transform="translate(-3,3)"
-     clip-path="url(#clipPath1789)" />
-  <polyline
-     points="159.35,59.21 163.21,59.21 "
-     style="stroke:#003399;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline624"
-     transform="translate(-1.5,3)"
-     clip-path="url(#clipPath1783)" />
-  <polyline
      points="161.28,59.21 161.28,110.95 "
-     style="stroke:#003399;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="polyline626"
-     transform="translate(-1.5,3)"
+     transform="translate(-1.5,7.5)"
      clip-path="url(#clipPath1777)" />
   <polyline
-     points="159.35,110.95 163.21,110.95 "
-     style="stroke:#003399;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline628"
-     transform="translate(-1.5,3)"
-     clip-path="url(#clipPath1771)" />
-  <polyline
-     points="165.15,107.68 169.01,107.68 "
-     style="stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline630"
-     transform="translate(0,3)"
-     clip-path="url(#clipPath1765)" />
-  <polyline
      points="167.08,107.68 167.08,163.80 "
-     style="stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="polyline632"
-     transform="translate(0,3)"
+     transform="translate(0,7.5)"
      clip-path="url(#clipPath1759)" />
   <polyline
-     points="165.15,163.80 169.01,163.80 "
-     style="stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline634"
-     transform="translate(0,3)"
-     clip-path="url(#clipPath1753)" />
-  <polyline
-     points="170.94,98.09 174.80,98.09 "
-     style="stroke:#660000;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline636"
-     transform="translate(1.5,3)"
-     clip-path="url(#clipPath1747)" />
-  <polyline
      points="172.87,98.09 172.87,156.56 "
-     style="stroke:#660000;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="polyline638"
-     transform="translate(1.5,3)"
+     transform="translate(1.5,7.5)"
      clip-path="url(#clipPath1741)" />
-  <polyline
-     points="170.94,156.56 174.80,156.56 "
-     style="stroke:#660000;stroke-width:1.07;stroke-linecap:butt"
-     id="polyline640"
-     transform="translate(1.5,3)"
-     clip-path="url(#clipPath1735)" />
   <circle
      cx="76.760002"
      cy="113.06"
      r="2.49"
-     style="fill:#2b83ba;stroke:#2b83ba;stroke-width:0.71"
+     style="fill:#2b83ba;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle642"
-     clip-path="url(#clipPath1729)" />
+     clip-path="url(#clipPath1729)"
+     transform="matrix(1.21,0,0,1.21,-16.1196,-19.2426)" />
   <circle
      cx="84.050003"
      cy="85.160004"
      r="2.49"
-     style="fill:#003399;stroke:#003399;stroke-width:0.71"
+     style="fill:#003399;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle644"
-     clip-path="url(#clipPath1723)" />
+     clip-path="url(#clipPath1723)"
+     transform="matrix(1.21,0,0,1.21,-17.650501,-13.383601)" />
   <circle
      cx="91.339996"
      cy="150.06"
      r="2.49"
-     style="fill:#d7191c;stroke:#d7191c;stroke-width:0.71"
+     style="fill:#d7191c;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle646"
-     clip-path="url(#clipPath1717)" />
+     clip-path="url(#clipPath1717)"
+     transform="matrix(1.21,0,0,1.21,-19.181399,-27.0126)" />
   <circle
      cx="98.629997"
      cy="135.27"
      r="2.49"
-     style="fill:#660000;stroke:#660000;stroke-width:0.71"
+     style="fill:#660000;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle648"
-     clip-path="url(#clipPath1711)" />
+     clip-path="url(#clipPath1711)"
+     transform="matrix(1.21,0,0,1.21,-20.712299,-23.9067)" />
   <circle
      cx="152.49001"
      cy="111.11"
      r="2.49"
-     style="fill:#2b83ba;stroke:#2b83ba;stroke-width:0.71"
+     style="fill:#2b83ba;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle650"
-     clip-path="url(#clipPath1705)" />
+     clip-path="url(#clipPath1705)"
+     transform="matrix(1.21,0,0,1.21,-32.022902,-18.8331)" />
   <circle
      cx="159.78"
      cy="87.209999"
      r="2.49"
-     style="fill:#003399;stroke:#003399;stroke-width:0.71"
+     style="fill:#003399;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle652"
-     clip-path="url(#clipPath1699)" />
+     clip-path="url(#clipPath1699)"
+     transform="matrix(1.21,0,0,1.21,-33.5538,-13.8141)" />
   <circle
      cx="167.08"
      cy="139.02"
      r="2.49"
-     style="fill:#d7191c;stroke:#d7191c;stroke-width:0.71"
+     style="fill:#d7191c;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle654"
-     clip-path="url(#clipPath1693)" />
+     clip-path="url(#clipPath1693)"
+     transform="matrix(1.21,0,0,1.21,-35.0868,-24.6942)" />
   <circle
      cx="174.37"
      cy="133.10001"
      r="2.49"
-     style="fill:#660000;stroke:#660000;stroke-width:0.71"
+     style="fill:#660000;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle656"
-     clip-path="url(#clipPath1687)" />
+     clip-path="url(#clipPath1687)"
+     transform="matrix(1.21,0,0,1.21,-36.617699,-23.451002)" />
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:0.702"
      x="88.392593"
-     y="111.30772"
+     y="115.80772"
      id="text599"><tspan
        sodipodi:role="line"
        id="tspan597"
        style="stroke-width:0.702"
        x="88.392593"
-       y="111.30772">a</tspan></text>
+       y="115.80772">a</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:0.702"
      x="96.810944"
-     y="99.732498"
+     y="104.2325"
      id="text603"><tspan
        sodipodi:role="line"
        id="tspan601"
        style="stroke-width:0.702"
        x="96.810944"
-       y="99.732498">b</tspan></text>
+       y="104.2325">b</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:0.702"
      x="74.634354"
-     y="79.738937"
+     y="84.238937"
      id="text607"><tspan
        sodipodi:role="line"
        id="tspan605"
        style="stroke-width:0.702"
        x="74.634354"
-       y="79.738937">c</tspan></text>
+       y="84.238937">c</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke-width:0.702"
      x="81.631134"
-     y="50.879326"
+     y="55.379326"
      id="text611"><tspan
        sodipodi:role="line"
        id="tspan609"
        style="stroke-width:0.702"
        x="81.631134"
-       y="50.879326">d</tspan></text>
+       y="55.379326">d</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;fill:#000000;stroke-width:0.702"
      x="163.92044"
-     y="106.95318"
+     y="111.45318"
      id="text599-6"><tspan
        sodipodi:role="line"
        id="tspan597-9"
        style="stroke-width:0.702"
        x="163.92044"
-       y="106.95318">a</tspan></text>
+       y="111.45318">a</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;fill:#000000;stroke-width:0.702"
      x="172.33879"
-     y="95.37796"
+     y="99.87796"
      id="text603-4"><tspan
        sodipodi:role="line"
        id="tspan601-1"
        style="stroke-width:0.702"
        x="172.33879"
-       y="95.37796">b</tspan></text>
+       y="99.87796">b</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;fill:#000000;stroke-width:0.702"
      x="150.1622"
-     y="81.384399"
+     y="85.884399"
      id="text607-3"><tspan
        sodipodi:role="line"
        id="tspan605-7"
        style="stroke-width:0.702"
        x="150.1622"
-       y="81.384399">c</tspan></text>
+       y="85.884399">c</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;white-space:pre;fill:#000000;stroke-width:0.702"
      x="157.15898"
-     y="57.024788"
+     y="61.524788"
      id="text611-8"><tspan
        sodipodi:role="line"
        id="tspan609-8"
        style="stroke-width:0.702"
        x="157.15898"
-       y="57.024788">d</tspan></text>
+       y="61.524788">d</tspan></text>
   <text
      x="35.669998"
      y="165.56"
@@ -1749,7 +1661,7 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text662"
-     transform="translate(0,3)">0.63</text>
+     transform="translate(0,7.5)">0.63</text>
   <text
      x="35.669998"
      y="137.78999"
@@ -1758,7 +1670,7 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text664"
-     transform="translate(0,3)">0.64</text>
+     transform="translate(0,7.5)">0.64</text>
   <text
      x="35.669998"
      y="110.02"
@@ -1767,7 +1679,7 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text666"
-     transform="translate(0,3)">0.65</text>
+     transform="translate(0,7.5)">0.65</text>
   <text
      x="35.669998"
      y="82.239998"
@@ -1776,7 +1688,7 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text668"
-     transform="translate(0,3)">0.66</text>
+     transform="translate(0,7.5)">0.66</text>
   <text
      x="35.669998"
      y="54.470001"
@@ -1785,54 +1697,55 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text670"
-     transform="translate(0,3)">0.67</text>
+     transform="translate(0,7.5)">0.67</text>
   <polyline
      points="37.86,162.41 40.60,162.41 "
      style="stroke:#333333;stroke-width:1.07;stroke-linecap:butt"
      id="polyline672"
      clip-path="url(#clipPath1514)"
-     transform="translate(0,3)" />
+     transform="translate(0,7.5)" />
   <polyline
      points="37.86,134.63 40.60,134.63 "
      style="stroke:#333333;stroke-width:1.07;stroke-linecap:butt"
      id="polyline674"
      clip-path="url(#clipPath1508)"
-     transform="translate(0,3)" />
+     transform="translate(0,7.5)" />
   <polyline
      points="37.86,106.86 40.60,106.86 "
      style="stroke:#333333;stroke-width:1.07;stroke-linecap:butt"
      id="polyline676"
      clip-path="url(#clipPath1502)"
-     transform="translate(0,3)" />
+     transform="translate(0,7.5)" />
   <polyline
      points="37.86,79.09 40.60,79.09 "
      style="stroke:#333333;stroke-width:1.07;stroke-linecap:butt"
      id="polyline678"
      clip-path="url(#clipPath1496)"
-     transform="translate(0,3)" />
+     transform="translate(0,7.5)" />
   <polyline
      points="37.86,51.32 40.60,51.32 "
      style="stroke:#333333;stroke-width:1.07;stroke-linecap:butt"
      id="polyline680"
      clip-path="url(#clipPath1490)"
-     transform="translate(0,3)" />
+     transform="translate(0,7.5)" />
   <polyline
      points="86.95,187.01 86.95,184.27 "
      style="stroke:#333333;stroke-width:1.07;stroke-linecap:butt"
      id="polyline682"
      clip-path="url(#clipPath1484)"
-     transform="translate(1.5)" />
+     transform="translate(1.5,4.5)" />
   <polyline
      points="164.18,187.01 164.18,184.27 "
      style="stroke:#333333;stroke-width:1.07;stroke-linecap:butt"
      id="polyline684"
-     clip-path="url(#clipPath1478)" />
+     clip-path="url(#clipPath1478)"
+     transform="translate(0,4.5)" />
   <line
      x1="22.969999"
      y1="19.6"
      x2="36.790001"
      y2="19.6"
-     style="stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="line700"
      clip-path="url(#clipPath1454)"
      transform="translate(192,-3)" />
@@ -1840,7 +1753,7 @@
      cx="29.879999"
      cy="19.6"
      r="2.49"
-     style="fill:#2b83ba;stroke:#2b83ba;stroke-width:0.71"
+     style="fill:#2b83ba;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle702"
      clip-path="url(#clipPath1448)"
      transform="translate(192,-3)" />
@@ -1849,7 +1762,7 @@
      y1="19.6"
      x2="90.970001"
      y2="19.6"
-     style="stroke:#003399;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="line706"
      clip-path="url(#clipPath1436)"
      transform="translate(192,-3)" />
@@ -1857,7 +1770,7 @@
      cx="84.050003"
      cy="19.6"
      r="2.49"
-     style="fill:#003399;stroke:#003399;stroke-width:0.71"
+     style="fill:#003399;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle708"
      clip-path="url(#clipPath1430)"
      transform="translate(192,-3)" />
@@ -1866,7 +1779,7 @@
      y1="19.6"
      x2="146.59"
      y2="19.6"
-     style="stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="line712"
      clip-path="url(#clipPath1418)"
      transform="translate(192,-3)" />
@@ -1874,7 +1787,7 @@
      cx="139.67999"
      cy="19.6"
      r="2.49"
-     style="fill:#d7191c;stroke:#d7191c;stroke-width:0.71"
+     style="fill:#d7191c;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle714"
      clip-path="url(#clipPath1412)"
      transform="translate(192,-3)" />
@@ -1883,7 +1796,7 @@
      y1="19.6"
      x2="200.77"
      y2="19.6"
-     style="stroke:#660000;stroke-width:1.07;stroke-linecap:butt"
+     style="stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-opacity:1"
      id="line718"
      clip-path="url(#clipPath1400)"
      transform="translate(192,-3)" />
@@ -1891,7 +1804,7 @@
      cx="193.86"
      cy="19.6"
      r="2.49"
-     style="fill:#660000;stroke:#660000;stroke-width:0.71"
+     style="fill:#660000;stroke:#000000;stroke-width:0.71;stroke-opacity:1"
      id="circle720"
      clip-path="url(#clipPath1394)"
      transform="translate(192,-3)" />
@@ -1935,215 +1848,119 @@
      style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
      id="rect20"
      clip-path="url(#clipPath1578)"
-     transform="matrix(1,0,0,1.075111,0,-13.808551)" />
-  <polyline
-     points="76.33,69.57 80.19,69.57 "
-     style="fill:none;stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline22"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1572)" />
+     transform="matrix(1,0,0,1.075111,0,-9.308551)" />
   <polyline
      points="78.26,69.57 78.26,122.73 "
-     style="fill:none;stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="polyline24"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath1566)" />
   <polyline
-     points="76.33,122.73 80.19,122.73 "
-     style="fill:none;stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline26"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1560)" />
-  <polyline
-     points="82.12,98.11 85.98,98.11 "
-     style="fill:none;stroke:#003399;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline28"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1554)" />
-  <polyline
      points="84.05,98.11 84.05,146.46 "
-     style="fill:none;stroke:#003399;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="polyline30"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath1548)" />
   <polyline
-     points="82.12,146.46 85.98,146.46 "
-     style="fill:none;stroke:#003399;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline32"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1542)" />
-  <polyline
-     points="87.91,51.02 91.77,51.02 "
-     style="fill:none;stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline34"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1536)" />
-  <polyline
      points="89.84,51.02 89.84,115.45 "
-     style="fill:none;stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="polyline36"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath1530)" />
   <polyline
-     points="87.91,115.45 91.77,115.45 "
-     style="fill:none;stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline38"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1524)" />
-  <polyline
-     points="93.70,81.57 97.56,81.57 "
-     style="fill:none;stroke:#660000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline40"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1518)" />
-  <polyline
      points="95.63,81.57 95.63,139.67 "
-     style="fill:none;stroke:#660000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="polyline42"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath1512)" />
   <polyline
-     points="93.70,139.67 97.56,139.67 "
-     style="fill:none;stroke:#660000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline44"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1506)" />
-  <polyline
-     points="153.56,117.06 157.42,117.06 "
-     style="fill:none;stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline46"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1500)" />
-  <polyline
      points="155.49,117.06 155.49,147.31 "
-     style="fill:none;stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="polyline48"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath1494)" />
   <polyline
-     points="153.56,147.31 157.42,147.31 "
-     style="fill:none;stroke:#2b83ba;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline50"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1488)" />
-  <polyline
-     points="159.35,129.40 163.21,129.40 "
-     style="fill:none;stroke:#003399;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline52"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1482)" />
-  <polyline
      points="161.28,129.40 161.28,165.52 "
-     style="fill:none;stroke:#003399;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="polyline54"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath1476)" />
   <polyline
-     points="159.35,165.52 163.21,165.52 "
-     style="fill:none;stroke:#003399;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline56"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1470)" />
-  <polyline
-     points="165.15,100.93 169.01,100.93 "
-     style="fill:none;stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline58"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1464)" />
-  <polyline
      points="167.08,100.93 167.08,144.10 "
-     style="fill:none;stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="polyline60"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath1458)" />
   <polyline
-     points="165.15,144.10 169.01,144.10 "
-     style="fill:none;stroke:#d7191c;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline62"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1452)" />
-  <polyline
-     points="170.94,142.01 174.80,142.01 "
-     style="fill:none;stroke:#660000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline64"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1446)" />
-  <polyline
      points="172.87,142.01 172.87,177.92 "
-     style="fill:none;stroke:#660000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="polyline66"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath1440)" />
-  <polyline
-     points="170.94,177.92 174.80,177.92 "
-     style="fill:none;stroke:#660000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
-     id="polyline68"
-     transform="translate(224.42932,-3.4280067)"
-     clip-path="url(#clipPath1434)" />
   <circle
      cx="302.68933"
      cy="95.411987"
      r="2.49"
-     style="fill:#2b83ba;stroke:#2b83ba;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:#2b83ba;stroke:#000000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="circle70"
      clip-path="url(#clipPath1428)"
-     transform="translate(0,-3)" />
+     transform="matrix(1.21,0,0,1.21,-63.564759,-18.536518)" />
   <circle
      cx="308.47931"
      cy="121.50199"
      r="2.49"
-     style="fill:#003399;stroke:#003399;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:#003399;stroke:#000000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="circle72"
      clip-path="url(#clipPath1422)"
-     transform="translate(0,-3)" />
+     transform="matrix(1.21,0,0,1.21,-64.780655,-24.015418)" />
   <circle
      cx="314.26932"
      cy="84.291992"
      r="2.49"
-     style="fill:#d7191c;stroke:#d7191c;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:#d7191c;stroke:#000000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="circle74"
      clip-path="url(#clipPath1416)"
-     transform="translate(0,-3)" />
+     transform="matrix(1.21,0,0,1.21,-65.996557,-16.201318)" />
   <circle
      cx="320.05933"
      cy="109.99199"
      r="2.49"
-     style="fill:#660000;stroke:#660000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:#660000;stroke:#000000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="circle76"
      clip-path="url(#clipPath1410)"
-     transform="translate(0,-3)" />
+     transform="matrix(1.21,0,0,1.21,-67.212459,-21.598318)" />
   <circle
      cx="379.91931"
      cy="131.642"
      r="2.49"
-     style="fill:#2b83ba;stroke:#2b83ba;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:#2b83ba;stroke:#000000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="circle78"
      clip-path="url(#clipPath1404)"
-     transform="translate(0,-3)" />
+     transform="matrix(1.21,0,0,1.21,-79.783055,-26.14482)" />
   <circle
      cx="385.70932"
      cy="149.41199"
      r="2.49"
-     style="fill:#003399;stroke:#003399;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:#003399;stroke:#000000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="circle80"
      clip-path="url(#clipPath1398)"
-     transform="translate(0,-3)" />
+     transform="matrix(1.21,0,0,1.21,-80.998957,-29.876518)" />
   <circle
      cx="391.50931"
      cy="123.98199"
      r="2.49"
-     style="fill:#d7191c;stroke:#d7191c;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:#d7191c;stroke:#000000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="circle82"
      clip-path="url(#clipPath1392)"
-     transform="translate(0,-3)" />
+     transform="matrix(1.21,0,0,1.21,-82.216955,-24.536218)" />
   <circle
      cx="397.29932"
      cy="160.422"
      r="2.49"
-     style="fill:#660000;stroke:#660000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+     style="fill:#660000;stroke:#000000;stroke-width:0.71;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="circle84"
      clip-path="url(#clipPath1386)"
-     transform="translate(0,-3)" />
+     transform="matrix(1.21,0,0,1.21,-83.432857,-32.18862)" />
   <line
      x1="77.139999"
      y1="19.6"
@@ -2152,7 +1969,7 @@
      style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="line706-0"
      clip-path="url(#clipPath1436-3)"
-     transform="translate(308.17633,158.74262)" />
+     transform="translate(308.17633,163.24262)" />
   <text
      x="35.669998"
      y="168.25999"
@@ -2161,7 +1978,7 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text90"
-     transform="translate(224.42932,-3.4280067)">0.25</text>
+     transform="translate(224.42932,1.0719933)">0.25</text>
   <text
      x="35.669998"
      y="127.39"
@@ -2170,7 +1987,7 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text92"
-     transform="translate(224.42932,-3.4280067)">0.50</text>
+     transform="translate(224.42932,1.0719933)">0.50</text>
   <text
      x="35.669998"
      y="86.519997"
@@ -2179,18 +1996,18 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text94"
-     transform="translate(224.42932,-3.4280067)">0.75</text>
+     transform="translate(224.42932,1.0719933)">0.75</text>
   <polyline
      points="37.86,165.10 40.60,165.10 "
      style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
      id="polyline96"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath768)" />
   <polyline
      points="37.86,124.24 40.60,124.24 "
      style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
      id="polyline98"
-     transform="translate(224.42932,-3.4280067)"
+     transform="translate(224.42932,1.0719933)"
      clip-path="url(#clipPath762)" />
   <text
      x="35.669998"
@@ -2200,103 +2017,105 @@
      textLength="17.129999"
      lengthAdjust="spacingAndGlyphs"
      id="text92-1"
-     transform="translate(223.59567,-84.582743)">1.00</text>
+     transform="translate(223.59567,-80.082743)">1.00</text>
   <polyline
      points="37.86,165.10 40.60,165.10 "
      style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
      id="polyline96-4"
-     transform="translate(224.42932,-84.582743)"
+     transform="translate(224.42932,-80.082743)"
      clip-path="url(#clipPath768-8)" />
   <polyline
      points="37.86,124.24 40.60,124.24 "
      style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
      id="polyline98-9"
-     transform="translate(224.42932,-84.582743)"
+     transform="translate(224.42932,-80.082743)"
      clip-path="url(#clipPath762-1)" />
   <polyline
      points="86.95,187.01 86.95,184.27 "
      style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
      id="polyline102"
-     transform="translate(224.42932,-0.42800665)"
+     transform="translate(224.42932,4.0719934)"
      clip-path="url(#clipPath750)" />
   <polyline
      points="164.18,187.01 164.18,184.27 "
      style="fill:none;stroke:#333333;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10"
      id="polyline104"
-     transform="translate(224.42932,-0.42800665)"
+     transform="translate(224.42932,4.0719934)"
      clip-path="url(#clipPath744)" />
   <text
      xml:space="preserve"
-     style="font-size:11px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#031b10;stroke-width:2.2"
-     x="-131.20195"
+     style="font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#031b10;stroke-width:2.2"
+     x="-127.16"
      y="13.253119"
      id="text1608"
      transform="rotate(-90)"><tspan
        sodipodi:role="line"
        id="tspan1606"
-       style="font-style:italic;stroke-width:2.2"
-       x="-131.20195"
+       style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:2.2"
+       x="-127.16"
        y="13.253119">Fv/Fm</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9.99998px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#031b10;stroke-width:2"
      x="292.62711"
-     y="197.71213"
+     y="202.21213"
      id="text1662"><tspan
        sodipodi:role="line"
        id="tspan1660"
        style="stroke-width:2"
        x="292.62711"
-       y="197.71213">Day 14</tspan></text>
+       y="202.21213">Day 14</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9.99998px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2"
      x="370.26114"
-     y="197.7756"
+     y="202.2756"
      id="text1662-2"><tspan
        sodipodi:role="line"
        id="tspan1660-2"
        style="stroke-width:2"
        x="370.26114"
-       y="197.7756">Day 31</tspan></text>
+       y="202.2756">Day 31</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9.99998px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2"
      x="68.217697"
-     y="197.71213"
+     y="202.21213"
      id="text1662-0"><tspan
        sodipodi:role="line"
        id="tspan1660-6"
        style="stroke-width:2"
        x="68.217697"
-       y="197.71213">Day 14</tspan></text>
+       y="202.21213">Day 14</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9.99998px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2"
      x="145.85173"
-     y="197.7756"
+     y="202.2756"
      id="text1662-2-2"><tspan
        sodipodi:role="line"
        id="tspan1660-2-2"
        style="stroke-width:2"
        x="145.85173"
-       y="197.7756">Day 31</tspan></text>
+       y="202.2756">Day 31</tspan></text>
   <text
      xml:space="preserve"
-     style="font-size:11px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2.2"
-     x="-177.98813"
+     style="font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2.2"
+     x="-171.98813"
      y="234.94977"
      id="text1608-4"
      transform="rotate(-90)"><tspan
        sodipodi:role="line"
        id="tspan1606-6"
-       style="font-style:normal;stroke-width:2.2"
-       x="-177.98813"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.2"
+       x="-171.98813"
        y="234.94977">Growth rate (mg g<tspan
-   style="font-size:7.14999px;baseline-shift:super;stroke-width:2.2"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:super;stroke-width:2.2"
    id="tspan2606">-1</tspan> d<tspan
-   style="font-size:7.14999px;baseline-shift:super;stroke-width:2.2"
-   id="tspan2608">-1</tspan>)</tspan></text>
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:super;stroke-width:2.2"
+   id="tspan2608">-1</tspan><tspan
+   style="font-size:8px"
+   id="tspan4013">)</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9.99998px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2"
@@ -2319,35 +2138,35 @@
      xml:space="preserve"
      style="font-size:9.99998px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:none;stroke-width:0.999997;stroke-dasharray:none"
      x="18.305084"
-     y="192.20338"
+     y="196.70338"
      id="text2550"><tspan
        sodipodi:role="line"
        id="tspan2548"
        style="stroke-width:1"
        x="18.305084"
-       y="192.20338">sde</tspan></text>
+       y="196.70338">sde</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2"
      x="46.871304"
-     y="47.828217"
+     y="52.328217"
      id="text1662-0-2"><tspan
        sodipodi:role="line"
        id="tspan1660-6-9"
        style="font-weight:bold;font-size:12px;stroke-width:2"
        x="46.871304"
-       y="47.828217">A</tspan></text>
+       y="52.328217">A</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2"
      x="270.83334"
-     y="47.828217"
+     y="52.328217"
      id="text1662-0-2-0"><tspan
        sodipodi:role="line"
        id="tspan1660-6-9-5"
        style="font-weight:bold;font-size:12px;stroke-width:2"
        x="270.83334"
-       y="47.828217">B</tspan></text>
+       y="52.328217">B</tspan></text>
   <line
      x1="77.139999"
      y1="19.6"
@@ -2356,7 +2175,7 @@
      style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="line706-2"
      clip-path="url(#clipPath1436-0)"
-     transform="translate(231.88518,127.27314)" />
+     transform="translate(231.88518,131.77314)" />
   <line
      x1="77.139999"
      y1="19.6"
@@ -2365,7 +2184,7 @@
      style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="line706-8"
      clip-path="url(#clipPath1436-1)"
-     transform="translate(222.4923,24.915563)" />
+     transform="translate(222.4923,29.415563)" />
   <line
      x1="77.139999"
      y1="19.6"
@@ -2374,49 +2193,49 @@
      style="fill:none;stroke:#000000;stroke-width:1.07;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1"
      id="line706-4"
      clip-path="url(#clipPath1436-4)"
-     transform="translate(298.98752,73.160629)" />
+     transform="translate(298.98752,77.660629)" />
   <text
      xml:space="preserve"
      style="font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:#000000;stroke-width:0.702;stroke-opacity:1"
      x="388.73645"
-     y="173.34772"
+     y="177.84772"
      id="text1613"><tspan
        sodipodi:role="line"
        id="tspan1611"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial;stroke:none;stroke-width:0.702"
        x="388.73645"
-       y="173.34772">a</tspan></text>
+       y="177.84772">a</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:none;stroke-width:0.702;stroke-opacity:1"
      x="380.24658"
-     y="89.571823"
+     y="94.071823"
      id="text1617"><tspan
        sodipodi:role="line"
        id="tspan1615"
        style="stroke-width:0.702"
        x="380.24658"
-       y="89.571823">b</tspan></text>
+       y="94.071823">b</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:none;stroke-width:0.702;stroke-opacity:1"
      x="313.84323"
-     y="143.59756"
+     y="148.09756"
      id="text1621"><tspan
        sodipodi:role="line"
        id="tspan1619"
        style="stroke-width:0.702"
        x="313.84323"
-       y="143.59756">b</tspan></text>
+       y="148.09756">b</tspan></text>
   <text
      xml:space="preserve"
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9px;font-family:Arial;-inkscape-font-specification:Arial;fill:#000000;stroke:none;stroke-width:0.702;stroke-opacity:1"
      x="304.36359"
-     y="41.342014"
+     y="45.842014"
      id="text1625"><tspan
        sodipodi:role="line"
        id="tspan1623"
        style="stroke-width:0.702"
        x="304.36359"
-       y="41.342014">c</tspan></text>
+       y="45.842014">c</tspan></text>
 </svg>
