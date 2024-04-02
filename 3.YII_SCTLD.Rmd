@@ -73,15 +73,6 @@ Treat_fill<-scale_fill_manual(values =
 Treat_colour<-scale_colour_manual(values =
                            c("#2b83ba", "#003399",
                              "#d7191c", "#660000"))
-# 
-# Zone_shapes4<- scale_shape_manual(values=c(21,23,24, 25))
-# Zone_shapes3<- scale_shape_manual(values=c(21,23,24))
-
-# Region_fill<-scale_fill_manual(values =
-#                            c("#663043", "#EDAB79", "#306754", "#79BAEC"))
-# 
-# Region_colour<-scale_colour_manual(values =
-#                           c("#663043", "#EDAB79", "#306754", "#79BAEC"))
 
 ```
 
@@ -207,7 +198,6 @@ YII_rep<- ggplot(YII.Tall, aes (Date, YII, colour=factor(Fragment))) +
   theme(legend.position = "none")
 YII_rep + ylim(0.2, 0.7) +  facet_grid (Nutrients~Temp) 
 
-
 ```
 
 
@@ -227,7 +217,7 @@ YII_Trea<- ggplot(YII.Tall[(YII.Tall$TimePoint!="T0"|YII.Tall$TimePoint!="T3"), 
   #              date_labels = "%b/%d")+
 YII_Trea + ylim(0.55, 0.71)+facet_grid(~TimePoint)
 
-YII_Trea<- ggplot(YII.Tall, 
+YII_Trea_col<- ggplot(YII.Tall, 
                   aes (TimePoint, YII, colour=factor(N_T))) +
   Treat_fill+
   Treat_colour+
@@ -240,7 +230,8 @@ YII_Trea<- ggplot(YII.Tall,
   # scale_x_date(date_breaks = "1 week", 
   #              date_labels = "%b/%d")+
   facet_grid(~Genotype)
-YII_Trea
+YII_Trea_col
+#ggsave("Outputs/Supp_YII_Trea.svg", YII_Trea_col, width=4, height=4,dpi = 300)
 
 ```
 
@@ -250,12 +241,9 @@ YII_Trea
 ```{r StatsForTreattmentandTime}
 
 # Libraries
-  library(lme4)
+  # library(lme4)
   library(multcomp)
-  library(multcompView)
-  library(emmeans)
-  library(effects)
-  library(lmerTest)
+  # library(multcompView)
 
 # More complex model
 
@@ -264,8 +252,6 @@ LM_1 <- lmer(YII ~ TimePoint * Nutrients * Temperature * Genotype +
 
 step(LM_1)
 anova(LM_1)
-
-
 
 ```
 
@@ -324,6 +310,27 @@ YII_Trea
 
 #ggsave("Outputs/YII_Trea.svg", YII_Trea, width=3, height=3,dpi = 300)
 
+```
+
+```{r}
+        # # create a new data frame 
+        # NewData <- expand.grid(TimePoint=unique(YII.Tall$TimePoint),
+        #                        Nutrients=unique(YII.Tall$Nutrients),
+        #                        Temperature=unique(YII.Tall$Temperature),
+        #                         Genotype=unique(YII.Tall$Genotype))
+        # # get prediction
+        # pred <- predict(LM_1, newdata= NewData, se.fit=TRUE, type = "response")
+        # 
+        # # CI function
+        # make_ci <- function(pred, data){
+        #   # fit, lower, and upper CI
+        #   fit <- pred$fit
+        #   se<-pred$se.fit
+        #   lower <- fit - 1.96*pred$se.fit
+        #   upper <- fit + 1.96*pred$se.fit
+        #   return(data.frame(fit, lower, upper, data))
+        # }
+        # my_pred <- make_ci(pred, NewData)
 ```
 
 **Figure 4a**: Text

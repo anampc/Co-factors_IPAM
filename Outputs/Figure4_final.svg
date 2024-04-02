@@ -6,7 +6,7 @@
    viewBox="0 0 448 216"
    version="1.1"
    id="svg732"
-   sodipodi:docname="Figure4.svg"
+   sodipodi:docname="Figure4_final.svg"
    inkscape:version="1.2.1 (9c6d41e, 2022-07-14)"
    inkscape:export-filename="Figure4.png"
    inkscape:export-xdpi="300"
@@ -27,12 +27,12 @@
      inkscape:document-units="pt"
      showgrid="false"
      inkscape:zoom="0.9983453"
-     inkscape:cx="356.59005"
-     inkscape:cy="97.661601"
+     inkscape:cx="294.48729"
+     inkscape:cy="98.663258"
      inkscape:window-width="1309"
      inkscape:window-height="779"
-     inkscape:window-x="2081"
-     inkscape:window-y="89"
+     inkscape:window-x="161"
+     inkscape:window-y="57"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg732" />
   <defs
@@ -1421,6 +1421,13 @@
     </clipPath>
   </defs>
   <rect
+     style="fill:#ffffff;stroke-width:0.75;paint-order:markers fill stroke;stop-color:#000000;fill-opacity:1;stroke:none"
+     id="rect1309"
+     width="446.98965"
+     height="214.85553"
+     x="0"
+     y="0.75124311" />
+  <rect
      width="100%"
      height="100%"
      style="fill:none;stroke:none"
@@ -2053,7 +2060,11 @@
        id="tspan1606"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:'Arial Italic';stroke-width:2.2"
        x="-127.16"
-       y="13.253119">Fv/Fm</tspan></text>
+       y="13.253119">F<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan818">v </tspan>/F<tspan
+   style="font-size:65%;baseline-shift:sub"
+   id="tspan820">m</tspan></tspan></text>
   <text
      xml:space="preserve"
      style="font-size:9.99998px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#031b10;stroke-width:2"
@@ -2101,15 +2112,15 @@
   <text
      xml:space="preserve"
      style="font-size:12px;font-family:sans-serif;-inkscape-font-specification:sans-serif;white-space:pre;fill:#031b10;stroke-width:2.2"
-     x="-171.98813"
+     x="-183.98813"
      y="234.94977"
      id="text1608-4"
      transform="rotate(-90)"><tspan
        sodipodi:role="line"
        id="tspan1606-6"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:Arial;-inkscape-font-specification:Arial;stroke-width:2.2"
-       x="-171.98813"
-       y="234.94977">Growth rate (mg g<tspan
+       x="-183.98813"
+       y="234.94977">Calcification rate (mg g<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:super;stroke-width:2.2"
    id="tspan2606">-1</tspan> d<tspan
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8px;font-family:Arial;-inkscape-font-specification:Arial;baseline-shift:super;stroke-width:2.2"
